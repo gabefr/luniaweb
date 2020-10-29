@@ -52,6 +52,7 @@
     <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/anime.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
@@ -73,7 +74,7 @@
               <!-- <li><a class="section&#45;scroll" href="#alt&#45;features">Features</a></li> -->
               <li><a class="section-scroll" href="#team">Team</a></li>
               <!-- <li><a class="section&#45;scroll" href="#pricing">Prices</a></li> -->
-              <li><a class="section-scroll" href="#news">News</a></li>
+              <!-- <li><a class="section&#45;scroll" href="#news">News</a></li> -->
               <li><a class="section-scroll" href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -88,9 +89,13 @@
           </div>
         </div>
       </section>
+
+
+
+
       <div class="main">
 	      <!-- ABOUT -->
-        <section class="module bg-dark-60" data-background="assets/images/section-6.jpg" id="about">
+        <section class="module bg-dark "  id="about">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
@@ -104,7 +109,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
           </div>
         </section>
               <!-- SERVICES -->
-        <section class="module" id="services">
+        <section class="module  " id="services">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
@@ -167,6 +172,46 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   <div class="features-icon"><span class="icon-lifesaver"></span></div>
                   <h3 class="features-title font-alt">Dedicated support</h3>
                   <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module bg-dark-60" data-background="assets/images/section-3.jpg">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Scoreboard</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-wallet"></span></div>
+                  <h3 class="count-to font-alt" data-countto="6543"></h3>
+                  <h5 class="count-title font-serif">Dollars raised for charity</h5>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-wine"></span></div>
+                  <h3 class="count-to font-alt" data-countto="8"></h3>
+                  <h5 class="count-title font-serif">Cups of wine consumed</h5>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-camera"></span></div>
+                  <h3 class="count-to font-alt" data-countto="184"></h3>
+                  <h5 class="count-title font-serif">Photographs taken</h5>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-map-pin"></span></div>
+                  <h3 class="count-to font-alt" data-countto="32"></h3>
+                  <h5 class="count-title font-serif">Locations covered</h5>
                 </div>
               </div>
             </div>
@@ -271,9 +316,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               </div>
             </div>
             <div class="row">
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
+              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3 col-md-offset-2" onclick="wow fadeInUp">
                 <div class="team-item">
-                  <div class="team-image"><img src="assets/images/team-1.jpg" alt="Member Photo"/>
+                  <div class="team-image"><img src="img/gloria.jpeg" alt="Member Photo"/>
                     <div class="team-detail">
                       <h5 class="font-alt">Hi all</h5>
                       <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
@@ -281,14 +326,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                     </div>
                   </div>
                   <div class="team-descr font-alt">
-                    <div class="team-name">Jim Stone</div>
+                    <div class="team-name">Gloria Capano</div>
                     <div class="team-role">Art Director</div>
                   </div>
                 </div>
               </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
+              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3 col-md-offset-2" onclick="wow fadeInUp">
                 <div class="team-item">
-                  <div class="team-image"><img src="assets/images/team-2.jpg" alt="Member Photo"/>
+                  <div class="team-image"><img src="img/gabriel.jpg" alt="Member Photo"/>
                     <div class="team-detail">
                       <h5 class="font-alt">Good day</h5>
                       <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
@@ -296,85 +341,45 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                     </div>
                   </div>
                   <div class="team-descr font-alt">
-                    <div class="team-name">Andy River</div>
+                    <div class="team-name">Gabriel Autès</div>
                     <div class="team-role">Creative director</div>
                   </div>
                 </div>
               </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-                <div class="team-item">
-                  <div class="team-image"><img src="assets/images/team-3.jpg" alt="Member Photo"/>
-                    <div class="team-detail">
-                      <h5 class="font-alt">Hello</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
-                    </div>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Adele Snow</div>
-                    <div class="team-role">Account manager</div>
-                  </div>
-                </div>
-              </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-                <div class="team-item">
-                  <div class="team-image"><img src="assets/images/team-4.jpg" alt="Member Photo"/>
-                    <div class="team-detail">
-                      <h5 class="font-alt">Yes, it's me</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
-                    </div>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Dylan Woods</div>
-                    <div class="team-role">Developer</div>
-                  </div>
-                </div>
-              </div>
+              <!-- <div class="mb&#45;sm&#45;20 wow fadeInUp col&#45;sm&#45;6 col&#45;md&#45;3" onclick="wow fadeInUp"> -->
+              <!--   <div class="team&#45;item"> -->
+              <!--     <div class="team&#45;image"><img src="assets/images/team&#45;3.jpg" alt="Member Photo"/> -->
+              <!--       <div class="team&#45;detail"> -->
+              <!--         <h5 class="font&#45;alt">Hello</h5> -->
+              <!--         <p class="font&#45;serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&#38;amp;nbsp;iaculis diam.</p> -->
+              <!--         <div class="team&#45;social"><a href="#"><i class="fa fa&#45;facebook"></i></a><a href="#"><i class="fa fa&#45;twitter"></i></a><a href="#"><i class="fa fa&#45;dribbble"></i></a><a href="#"><i class="fa fa&#45;skype"></i></a></div> -->
+              <!--       </div> -->
+              <!--     </div> -->
+              <!--     <div class="team&#45;descr font&#45;alt"> -->
+              <!--       <div class="team&#45;name">Adele Snow</div> -->
+              <!--       <div class="team&#45;role">Account manager</div> -->
+              <!--     </div> -->
+              <!--   </div> -->
+              <!-- </div> -->
+              <!-- <div class="mb&#45;sm&#45;20 wow fadeInUp col&#45;sm&#45;6 col&#45;md&#45;3" onclick="wow fadeInUp"> -->
+              <!--   <div class="team&#45;item"> -->
+              <!--     <div class="team&#45;image"><img src="assets/images/team&#45;4.jpg" alt="Member Photo"/> -->
+              <!--       <div class="team&#45;detail"> -->
+              <!--         <h5 class="font&#45;alt">Yes, it's me</h5> -->
+              <!--         <p class="font&#45;serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&#38;amp;nbsp;iaculis diam.</p> -->
+              <!--         <div class="team&#45;social"><a href="#"><i class="fa fa&#45;facebook"></i></a><a href="#"><i class="fa fa&#45;twitter"></i></a><a href="#"><i class="fa fa&#45;dribbble"></i></a><a href="#"><i class="fa fa&#45;skype"></i></a></div> -->
+              <!--       </div> -->
+              <!--     </div> -->
+              <!--     <div class="team&#45;descr font&#45;alt"> -->
+              <!--       <div class="team&#45;name">Dylan Woods</div> -->
+              <!--       <div class="team&#45;role">Developer</div> -->
+              <!--     </div> -->
+              <!--   </div> -->
+              <!-- </div> -->
             </div>
           </div>
         </section>
-        <section class="module bg-dark-60" data-background="assets/images/section-3.jpg">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Scoreboard</h2>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-            <div class="row multi-columns-row">
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="count-item mb-sm-40">
-                  <div class="count-icon"><span class="icon-wallet"></span></div>
-                  <h3 class="count-to font-alt" data-countto="6543"></h3>
-                  <h5 class="count-title font-serif">Dollars raised for charity</h5>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="count-item mb-sm-40">
-                  <div class="count-icon"><span class="icon-wine"></span></div>
-                  <h3 class="count-to font-alt" data-countto="8"></h3>
-                  <h5 class="count-title font-serif">Cups of wine consumed</h5>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="count-item mb-sm-40">
-                  <div class="count-icon"><span class="icon-camera"></span></div>
-                  <h3 class="count-to font-alt" data-countto="184"></h3>
-                  <h5 class="count-title font-serif">Photographs taken</h5>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="count-item mb-sm-40">
-                  <div class="count-icon"><span class="icon-map-pin"></span></div>
-                  <h3 class="count-to font-alt" data-countto="32"></h3>
-                  <h5 class="count-title font-serif">Locations covered</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/testimonial_bg.jpg">
+        <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="img/mountain.jpg">
           <div class="testimonials-slider pt-140 pb-140">
             <ul class="slides">
               <li>
@@ -452,83 +457,83 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             </ul>
           </div>
         </section>
-        <section class="module" id="news">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Latest blog posts</h2>
-                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
-              </div>
-            </div>
-            <div class="row multi-columns-row post-columns">
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Our trip to the Alps</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Mark Stone</a>&nbsp;| 23 November | 3 Comments
-                    </div>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Shore after the tide</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Andy River</a>&nbsp;| 11 November | 4 Comments
-                    </div>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">We in New Zealand</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Dylan Woods</a>&nbsp;| 5 November | 15 Comments
-                    </div>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="module-small bg-dark">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
-                <div class="callout-text font-alt">
-                  <h3 class="callout-title">Subscribe now</h3>
-                  <p>We will not spam your email.</p>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="callout-btn-box">
-                  <form id="subscription-form" role="form" method="post" action="php/subscribe.php">
-                    <div class="input-group">
-                      <input class="form-control" type="email" id="semail" name="semail" placeholder="Your Email" data-validation-required-message="Please enter your email address." required="required"/><span class="input-group-btn">
-                        <button class="btn btn-g btn-round" id="subscription-form-submit" type="submit">Submit</button></span>
-                    </div>
-                  </form>
-                  <div class="text-center" id="subscription-response"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- <section class="module" id="news"> -->
+        <!--   <div class="container"> -->
+        <!--     <div class="row"> -->
+        <!--       <div class="col&#45;sm&#45;6 col&#45;sm&#45;offset&#45;3"> -->
+        <!--         <h2 class="module&#45;title font&#45;alt">Latest blog posts</h2> -->
+        <!--         <div class="module&#45;subtitle font&#45;serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div> -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--     <div class="row multi&#45;columns&#45;row post&#45;columns"> -->
+        <!--       <div class="col&#45;sm&#45;6 col&#45;md&#45;4 col&#45;lg&#45;4"> -->
+        <!--         <div class="post mb&#45;20"> -->
+        <!--           <div class="post&#45;thumbnail"><a href="#"><img src="assets/images/post&#45;1.jpg" alt="Blog&#45;post Thumbnail"/></a></div> -->
+        <!--           <div class="post&#45;header font&#45;alt"> -->
+        <!--             <h2 class="post&#45;title"><a href="#">Our trip to the Alps</a></h2> -->
+        <!--             <div class="post&#45;meta">By&#38;nbsp;<a href="#">Mark Stone</a>&#38;nbsp;| 23 November | 3 Comments -->
+        <!--             </div> -->
+        <!--           </div> -->
+        <!--           <div class="post&#45;entry"> -->
+        <!--             <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p> -->
+        <!--           </div> -->
+        <!--           <div class="post&#45;more"><a class="more&#45;link" href="#">Read more</a></div> -->
+        <!--         </div> -->
+        <!--       </div> -->
+        <!--       <div class="col&#45;sm&#45;6 col&#45;md&#45;4 col&#45;lg&#45;4"> -->
+        <!--         <div class="post mb&#45;20"> -->
+        <!--           <div class="post&#45;thumbnail"><a href="#"><img src="assets/images/post&#45;2.jpg" alt="Blog&#45;post Thumbnail"/></a></div> -->
+        <!--           <div class="post&#45;header font&#45;alt"> -->
+        <!--             <h2 class="post&#45;title"><a href="#">Shore after the tide</a></h2> -->
+        <!--             <div class="post&#45;meta">By&#38;nbsp;<a href="#">Andy River</a>&#38;nbsp;| 11 November | 4 Comments -->
+        <!--             </div> -->
+        <!--           </div> -->
+        <!--           <div class="post&#45;entry"> -->
+        <!--             <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p> -->
+        <!--           </div> -->
+        <!--           <div class="post&#45;more"><a class="more&#45;link" href="#">Read more</a></div> -->
+        <!--         </div> -->
+        <!--       </div> -->
+        <!--       <div class="col&#45;sm&#45;6 col&#45;md&#45;4 col&#45;lg&#45;4"> -->
+        <!--         <div class="post mb&#45;20"> -->
+        <!--           <div class="post&#45;thumbnail"><a href="#"><img src="assets/images/post&#45;3.jpg" alt="Blog&#45;post Thumbnail"/></a></div> -->
+        <!--           <div class="post&#45;header font&#45;alt"> -->
+        <!--             <h2 class="post&#45;title"><a href="#">We in New Zealand</a></h2> -->
+        <!--             <div class="post&#45;meta">By&#38;nbsp;<a href="#">Dylan Woods</a>&#38;nbsp;| 5 November | 15 Comments -->
+        <!--             </div> -->
+        <!--           </div> -->
+        <!--           <div class="post&#45;entry"> -->
+        <!--             <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p> -->
+        <!--           </div> -->
+        <!--           <div class="post&#45;more"><a class="more&#45;link" href="#">Read more</a></div> -->
+        <!--         </div> -->
+        <!--       </div> -->
+            <!-- </div> -->
+          <!-- </div> -->
+        <!-- </section> -->
+        <!-- <div class="module&#45;small bg&#45;dark"> -->
+        <!--   <div class="container"> -->
+        <!--     <div class="row"> -->
+        <!--       <div class="col&#45;sm&#45;6 col&#45;md&#45;6 col&#45;lg&#45;4 col&#45;lg&#45;offset&#45;2"> -->
+        <!--         <div class="callout&#45;text font&#45;alt"> -->
+        <!--           <h3 class="callout&#45;title">Subscribe now</h3> -->
+        <!--           <p>We will not spam your email.</p> -->
+        <!--         </div> -->
+        <!--       </div> -->
+        <!--       <div class="col&#45;sm&#45;6 col&#45;md&#45;6 col&#45;lg&#45;4"> -->
+        <!--         <div class="callout&#45;btn&#45;box"> -->
+        <!--           <form id="subscription&#45;form" role="form" method="post" action="php/subscribe.php"> -->
+        <!--             <div class="input&#45;group"> -->
+        <!--               <input class="form&#45;control" type="email" id="semail" name="semail" placeholder="Your Email" data&#45;validation&#45;required&#45;message="Please enter your email address." required="required"/><span class="input&#45;group&#45;btn"> -->
+        <!--                 <button class="btn btn&#45;g btn&#45;round" id="subscription&#45;form&#45;submit" type="submit">Submit</button></span> -->
+        <!--             </div> -->
+        <!--           </form> -->
+        <!--           <div class="text&#45;center" id="subscription&#45;response"></div> -->
+        <!--         </div> -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!-- </div> -->
         <section class="module" id="contact">
           <div class="container">
             <div class="row">
@@ -563,65 +568,69 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             </div>
           </div>
         </section>
-        <section id="map-section">
-          <div id="map"></div>
-        </section>
+        <!-- <section id="map&#45;section"> -->
+        <!--   <div id="map"></div> -->
+        <!-- </section> -->
         <div class="module-small bg-dark">
           <div class="container">
             <div class="row">
               <div class="col-sm-3">
                 <div class="widget">
                   <h5 class="widget-title font-alt">About LunIA</h5>
-                  <p>The languages only differ in their grammar, their pronunciation and their most common words.</p>
-                  <p>Phone: +1 234 567 89 10</p>Fax: +1 234 567 89 10
-                  <p>Email:<a href="#">somecompany@example.com</a></p>
+                  <p>the data science and artificial intelligence agency.</p>
+		  <p>Phone: +1 234 567 89 10</br>
+                     Email: <a href="#">contact@lunia.ai</a></p>
+		  <p> Lunia  </br>
+		       XX some street </br>
+		       1000 Lausanne, Switzerland
+		  </p>
                 </div>
               </div>
-              <div class="col-sm-3">
-                <div class="widget">
-                  <h5 class="widget-title font-alt">Recent Comments</h5>
-                  <ul class="icon-list">
-                    <li>Maria on <a href="#">Designer Desk Essentials</a></li>
-                    <li>John on <a href="#">Realistic Business Card Mockup</a></li>
-                    <li>Andy on <a href="#">Eco bag Mockup</a></li>
-                    <li>Jack on <a href="#">Bottle Mockup</a></li>
-                    <li>Mark on <a href="#">Our trip to the Alps</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="widget">
-                  <h5 class="widget-title font-alt">Blog Categories</h5>
-                  <ul class="icon-list">
-                    <li><a href="#">Photography - 7</a></li>
-                    <li><a href="#">Web Design - 3</a></li>
-                    <li><a href="#">Illustration - 12</a></li>
-                    <li><a href="#">Marketing - 1</a></li>
-                    <li><a href="#">Wordpress - 16</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="widget">
-                  <h5 class="widget-title font-alt">Popular Posts</h5>
-                  <ul class="widget-posts">
-                    <li class="clearfix">
-                      <div class="widget-posts-image"><a href="#"><img src="assets/images/rp-1.jpg" alt="Post Thumbnail"/></a></div>
-                      <div class="widget-posts-body">
-                        <div class="widget-posts-title"><a href="#">Designer Desk Essentials</a></div>
-                        <div class="widget-posts-meta">23 january</div>
-                      </div>
-                    </li>
-                    <li class="clearfix">
-                      <div class="widget-posts-image"><a href="#"><img src="assets/images/rp-2.jpg" alt="Post Thumbnail"/></a></div>
-                      <div class="widget-posts-body">
-                        <div class="widget-posts-title"><a href="#">Realistic Business Card Mockup</a></div>
-                        <div class="widget-posts-meta">15 February</div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <!-- <div class="col&#45;sm&#45;3"> -->
+              <!--   <div class="widget"> -->
+              <!--     <h5 class="widget&#45;title font&#45;alt">Recent Comments</h5> -->
+              <!--     <ul class="icon&#45;list"> -->
+              <!--       <li>Maria on <a href="#">Designer Desk Essentials</a></li> -->
+              <!--       <li>John on <a href="#">Realistic Business Card Mockup</a></li> -->
+              <!--       <li>Andy on <a href="#">Eco bag Mockup</a></li> -->
+              <!--       <li>Jack on <a href="#">Bottle Mockup</a></li> -->
+              <!--       <li>Mark on <a href="#">Our trip to the Alps</a></li> -->
+              <!--     </ul> -->
+              <!--   </div> -->
+              <!-- </div> -->
+              <!-- <div class="col&#45;sm&#45;3"> -->
+              <!--   <div class="widget"> -->
+              <!--     <h5 class="widget&#45;title font&#45;alt">Blog Categories</h5> -->
+              <!--     <ul class="icon&#45;list"> -->
+              <!--       <li><a href="#">Photography &#45; 7</a></li> -->
+              <!--       <li><a href="#">Web Design &#45; 3</a></li> -->
+              <!--       <li><a href="#">Illustration &#45; 12</a></li> -->
+              <!--       <li><a href="#">Marketing &#45; 1</a></li> -->
+              <!--       <li><a href="#">Wordpress &#45; 16</a></li> -->
+              <!--     </ul> -->
+              <!--   </div> -->
+              <!-- </div> -->
+              <!-- <div class="col&#45;sm&#45;3"> -->
+              <!--   <div class="widget"> -->
+              <!--     <h5 class="widget&#45;title font&#45;alt">Popular Posts</h5> -->
+              <!--     <ul class="widget&#45;posts"> -->
+              <!--       <li class="clearfix"> -->
+              <!--         <div class="widget&#45;posts&#45;image"><a href="#"><img src="assets/images/rp&#45;1.jpg" alt="Post Thumbnail"/></a></div> -->
+              <!--         <div class="widget&#45;posts&#45;body"> -->
+              <!--           <div class="widget&#45;posts&#45;title"><a href="#">Designer Desk Essentials</a></div> -->
+              <!--           <div class="widget&#45;posts&#45;meta">23 january</div> -->
+              <!--         </div> -->
+              <!--       </li> -->
+              <!--       <li class="clearfix"> -->
+              <!--         <div class="widget&#45;posts&#45;image"><a href="#"><img src="assets/images/rp&#45;2.jpg" alt="Post Thumbnail"/></a></div> -->
+              <!--         <div class="widget&#45;posts&#45;body"> -->
+              <!--           <div class="widget&#45;posts&#45;title"><a href="#">Realistic Business Card Mockup</a></div> -->
+              <!--           <div class="widget&#45;posts&#45;meta">15 February</div> -->
+              <!--         </div> -->
+              <!--       </li> -->
+              <!--     </ul> -->
+              <!--   </div> -->
+              <!-- </div> -->
             </div>
           </div>
         </div>
@@ -666,5 +675,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     <!-- <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK2Axt8xiFYMBMDwwG1XzBQvEbYpzCvFU"></script> -->
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
+
   </body>
 </html>
