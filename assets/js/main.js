@@ -470,7 +470,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                         $('#contactForm textarea[name=message]').val('');
                     },
                     error: function (data) {
-                        alert("Error occurd! Please try again");
+                        alert("Error occured! Please try again");
                     }
                 });
 
@@ -510,7 +510,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                         $('#requestACall textarea[name=phone]').val('');
                     },
                     error: function (data) {
-                        alert("Error occurd! Please try again");
+                        alert("Error occured! Please try again");
                     }
                 });
 
